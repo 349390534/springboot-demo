@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  sessionTimeout: 30
+  contextPath: /
+spring:
+  application:
+    name: springcloud-demo
+  thymeleaf:
+    cache: false
+    check-template-location: false
+    content-type: text/html
+    encoding: UTF-8
+    prefix: classpath:/templates/
+    suffix: .html
+    mode: HTML5  
